@@ -2,22 +2,16 @@ import logo from './logo.svg';
 import './App.css';
 
 function App() {
+  const first_name = 'Ahmed';
+  const last_name = 'Elsenosy';
+
+  function full_name(first, last){
+    return <h2>hello, {first} {last}</h2>;
+  }
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <h1>hello react app</h1>
+      {full_name(first_name, last_name)}
     </div>
   );
 }
