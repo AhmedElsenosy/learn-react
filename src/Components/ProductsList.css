@@ -1,0 +1,9 @@
+.ProductsList {
+    margin: auto;
+    width: 85%;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+}
